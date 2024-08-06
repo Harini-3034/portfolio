@@ -1,20 +1,35 @@
 body {
-    background-color: #03013a;
+    
     color: white;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+
+
 }
 
 header {
-    background-color: #01357e;
+    background-color: #0000009b;
     color: white;
-    padding: 30px 0;
+    padding: 20px 0;
     text-align: center;
     font-size: 25px;
     display: flex;
     justify-content: center;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    
+
+
 }
+
 
 nav ul {
     list-style: none;
@@ -84,7 +99,7 @@ input[type="text"], input[type="email"], textarea {
     width: 100%;
     max-width: 400px;
     padding: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 input[type="submit"] {
@@ -96,5 +111,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #e32f2f;
+    background-color: #f17d7d;
 }
